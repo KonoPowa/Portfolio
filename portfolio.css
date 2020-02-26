@@ -11,7 +11,7 @@
 	display: flex;
 	width: 100%;
 	height: 85px;
-	background: #7fcd91;
+	background: #4f9cb8;
 	z-index: 3;
 	justify-content: flex-end;
 }
@@ -75,7 +75,7 @@
 .nav-link{
 	padding: 25px;
 	padding-top: 26px;
-	background-color: #7fcd91;
+	background-color: #4f9cb8;
 	justify-self: center;
 	font-family: 'Alegreya', serif;
 
@@ -95,7 +95,7 @@
 #item2-back{
 	height: 100vh;
 	width:100%;
-	background-color: #4d4646;
+	background-color: #292929;
 	background-attachment: fixed;
 	background-size: contain;
 }
@@ -114,7 +114,7 @@
 #continue{
 	position:relative;
 	padding: 15px;
-	background-color: #7fcd91;
+	background-color: #4f9cb8;
 	text-align: center;
 	font-size: 30px;
 	top: 305px;
@@ -147,6 +147,7 @@
 	font-family: 'Alegreya', serif;
 	position: relative;
 	top: 200px;
+	color: #9159c9;
 }
 
 a:link{
@@ -155,38 +156,37 @@ a:link{
 
 #projects{
 	display: block;
-	height: 2000px;
 	width: 100%;
-	background-color: #5b5656;
+	background-color: #140029;
 }
 
 #Ptitle{
 	display: block;
 	justify-self: center;
-	margin-top: 150px;
-	height: 50px;
-	width: 500px;
+	margin-top: 100px;
+	width: 50%;;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 100px;
-	border-bottom: 2px solid #f5eaea;
+	margin-bottom: 150px;
 }
 
 #Ptitle2{
 	color: #f5eaea;
 	font-size: 50px;
 	text-align: center;
+	border-bottom: 2px solid #f5eaea;
+	padding-bottom: 20px;
 }
 
 #examples{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 50px;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 400px));
+	grid-gap: 30px;
 	width: 100%;
-	max-width: 1280px;
+	max-width: 1300px;
 	margin: 0 auto;
 	margin-bottom: 50px;
-	background: red;
+	justify-content: space-evenly;
 }
 	
 }
@@ -194,5 +194,26 @@ a:link{
 #Gitem1{
 	height: 450px;
 	width: 450px;
-	background: blue;
+	object-fit: cover;
 }
+
+.img{
+	height: 400px; 
+	width: 100%;
+	object-fit: cover;
+}
+
+.desc{
+	minmax(330px, 400px;);
+	position: relative;
+	bottom: 4px;
+	text-align: center;
+	background: grey;
+	padding: 20px;
+	color: #fafafa;
+	background: #292929;
+	font-size: 25px;
+	font-family: 'Oxanium', monospace;
+	
+}
+	
