@@ -42,7 +42,7 @@
 	margin-left: 10px;
 }
 
-#nav-bar{
+#navbar{
 	justify-self: end;
 	align-self: center;
 	font-size: 30px;
@@ -50,23 +50,23 @@
 	margin-left: auto;
 }
 
-#nav-bar a:link{
+#navbar a:link{
 	color:#f5eaea;
 	text-decoration: none;
 }
 
-#nav-bar a:visited{
+#navbar a:visited{
 	color:#f5eaea;
 	text-decoration: none;
 }
 
-#nav-bar a:hover{
+#navbar a:hover{
 	color:#7fcd91; 
 	text-decoration: none;
 	background-color: #f5eaea;
 }
 
-#nav-bar a:active{
+#navbar a:active{
 	position: relative;
 	font-size:30px;
 	color:#7fcd91; 
@@ -102,7 +102,7 @@
 	background-size: contain;
 }
 
-#item2{
+#welcome-section{
 	display: block;
 	height: 100vh;
 	width: 100%;
@@ -193,7 +193,7 @@ a:link{
 	
 }
 
-#Gitem1{
+.project-tile{
 	height: 450px;
 	width: 450px;
 	object-fit: cover;
