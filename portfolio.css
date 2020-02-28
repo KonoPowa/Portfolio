@@ -3,6 +3,7 @@
 		padding: 0;
 		color: green;
 		scroll-behavior: smooth;
+		font-family: 'Alegreya', serif;
 	}
 
 #hcontainer{
@@ -74,7 +75,7 @@
 
 .nav-link{
 	padding: 25px;
-	padding-top: 26px;
+	padding-top: 20px;
 	background-color: #4f9cb8;
 	justify-self: center;
 	font-family: 'Alegreya', serif;
@@ -120,7 +121,7 @@
 	top: 305px;
 	font-family: 'Alegreya', serif;
 	color: #f5eaea;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 #item2 a:active{
@@ -132,19 +133,19 @@
 }
 
 #home{
-	font-size: 90px;
+	font-size: 100px;
 	position:relative;
 	top: 200px;
 	color: #e6e6e6;
-	font-family: 'Alegreya', serif;
+	font-family: 'oxanium';
 	font-weight: bold;
 	
 }
 
 #home2{
-	font-size: 40px;
+	font-size: 30px;
 	color: ##32a852;
-	font-family: 'Alegreya', serif;
+	font-family: 'Merienda', serif;
 	position: relative;
 	top: 200px;
 	color: #9159c9;
@@ -161,10 +162,9 @@ a:link{
 }
 
 #Ptitle{
-	display: block;
 	justify-self: center;
 	margin-top: 100px;
-	width: 50%;;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 150px;
@@ -176,6 +176,7 @@ a:link{
 	text-align: center;
 	border-bottom: 2px solid #f5eaea;
 	padding-bottom: 20px;
+	font-family: 'Alegreya', serif;
 }
 
 #examples{
@@ -201,6 +202,8 @@ a:link{
 	height: 400px; 
 	width: 100%;
 	object-fit: cover;
+	border-radius: 5px 5px;
+	box-shadow: 3px 3px 4px 1px black;
 }
 
 .desc{
@@ -214,6 +217,119 @@ a:link{
 	background: #292929;
 	font-size: 25px;
 	font-family: 'Oxanium', monospace;
-	
+	border-radius: 0 0 5px 5px;
+	box-shadow: 3px 3px 4px 1px black;
 }
-	
+
+#info{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	background-color: grey;
+	transition: width 2s;
+}
+
+#Bcontainer{
+	position: relative;
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+	background: ;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	top: 100px;
+}
+
+#img2{
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+	z-index: 3;
+	background: grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: .4s;
+}
+
+#button{
+	display: block;
+	height: 50px;
+	width: 70px;
+}
+
+#Btext{
+	position: absolute;
+	display: flex;
+	height: 50px;
+	width: 70px;
+	background: ;
+	transition: .4s;
+}
+
+#Btext1{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	align-self: center;
+}
+
+#button:hover #img2{
+	transform: scale(1.2);
+}
+
+#button:hover #Btext{
+	transform: translate(150%);
+}
+
+#copyright{
+	border-top: 1px solid black;
+	display: flex;
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	background: ;
+	bottom: 0;
+}
+
+#copyright1{
+	display: grid;
+	height: 150px;
+	width: 500px;
+	grid-template-columns: 250px 250px;
+	background: ;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copytext{
+	display: block;
+	font-size: 30px;
+	color: white;
+	justify-self: center;
+	align-self: center;
+	font-family: 'oxanium';
+}
+
+#copytext1{
+	display: block;
+	font-size: 30px;
+	color: white;
+	justify-self: center;
+	align-self: center;
+	font-family: 'Merienda';
+}
+
+@media screen and (max-width: 992px) {
+  #Bcontainer {
+    flex-direction: column;
+	top: 10px;
+  }
+  
+  #button{
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 60px;
+  }
+}
